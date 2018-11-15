@@ -20,7 +20,20 @@ public class TokenPass {
         {
             nextPlayer = (nextPlayer + 1) % board.length;
             board[nextPlayer]++;
-            numToDistribute-
+            numToDistribute--;
         }
+
+    }
+    public void nextPlayer()
+    {
+
+    }
+    public void gameOver()
+    {
+        
+    }
+    public int[] printBoard()
+    {
+        return board;
     }
 }
